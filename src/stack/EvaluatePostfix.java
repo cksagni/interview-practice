@@ -1,9 +1,7 @@
 package stack;
 
-import java.util.Arrays;
-import java.util.List;
-import java.util.Objects;
-import java.util.Stack;
+import java.util.*;
+import java.util.function.BiFunction;
 
 public class EvaluatePostfix {
     /*
@@ -19,26 +17,26 @@ public class EvaluatePostfix {
     The answer and all the intermediate calculations can be represented in a 32-bit integer.
      */
 
+    public static final Map<
+            String,
+            BiFunction<Integer, Integer, Integer>> OPERATIONS = Map.of(
+                    "+", (a, b) -> a + b ,
+                    "-", (a, b) -> a - b,
+                    "*", (a, b) -> a * b,
+                    "/", (a, b) -> a / b
+    );
+
     public static int evalRPN(String[] tokens){
-        List<String> operators = List.of("+", "-", "*", "/");
         Stack<Integer> stack = new Stack<>();
         int first, second, result;
         for (String token: tokens){
-            if (operators.contains(token)){
+            if (OPERATIONS.containsKey(token)){
                 second = stack.pop();
                 first = stack.pop();
-                if (token.equals("+")){
-                    result = first + second;
-                }
-                else if (token.equals("-")){
-                    result = first - second;
-                }
-                else if(token.equals("*")){
-                    result = first * second;
-                }
-                else {
-                    result = (int) first / second;
-                }
+                BiFunction<Integer, Integer, Integer> operator = OPERATIONS.get(
+                        token
+                );
+                result = operator.apply(first, second);
                 stack.push(result);
             } else{
                 stack.push(Integer.parseInt(token));
