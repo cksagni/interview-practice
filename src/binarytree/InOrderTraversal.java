@@ -1,8 +1,5 @@
 package binarytree;
 
-
-import com.sun.source.tree.Tree;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;
@@ -20,6 +17,7 @@ public class InOrderTraversal {
 
     public List<Integer> inorderTraversalIter(TreeNode root) {
         Stack<TreeNode> stack = new Stack<>();
+
         while(root != null || !stack.isEmpty()){
             while (root != null){
                 stack.add(root);

@@ -3,14 +3,6 @@ package binarysearch;
 import java.util.Arrays;
 
 public class FindFirstAndLast {
-    /*
-    Given an array of integers nums sorted in non-decreasing order,
-    find the starting and ending position of a given target value.
-
-    If target is not found in the array, return [-1, -1].
-
-    You must write an algorithm with O(log n) runtime complexity.
-     */
 
     public static int binarySearch(int[] nums, int target, boolean isSearchingFirstOccurrence){
         int leftIndex = 0, rightIndex = nums.length - 1, index = -1, middleIndex;
