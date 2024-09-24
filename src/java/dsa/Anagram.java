@@ -1,4 +1,4 @@
-package dsa.dividenconquer.java.dsa;
+package dsa;
 
 import java.util.HashMap;
 

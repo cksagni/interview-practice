@@ -1,4 +1,4 @@
-package dsa.dividenconquer.java.dsa.twopointer;
+package dsa.twopointer;
 
 import java.util.ArrayList;
 import java.util.Arrays;

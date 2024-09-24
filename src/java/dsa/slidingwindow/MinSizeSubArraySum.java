@@ -1,4 +1,4 @@
-package dsa.dividenconquer.java.dsa.slidingwindow;
+package dsa.slidingwindow;
 
 public class MinSizeSubArraySum {
     public static int minSubArrayLength(int target, int[] nums){

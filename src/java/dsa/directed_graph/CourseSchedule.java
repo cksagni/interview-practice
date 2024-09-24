@@ -1,4 +1,4 @@
-package dsa.dividenconquer.java.dsa.directed_graph;
+package dsa.directed_graph;
 
 import java.util.ArrayList;
 import java.util.LinkedList;

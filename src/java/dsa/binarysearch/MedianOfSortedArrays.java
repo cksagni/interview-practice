@@ -1,4 +1,4 @@
-package dsa.dividenconquer.java.dsa.binarysearch;
+package dsa.binarysearch;
 
 public class MedianOfSortedArrays {
 

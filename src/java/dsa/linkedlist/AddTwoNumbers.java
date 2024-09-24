@@ -1,4 +1,4 @@
-package dsa.dividenconquer.java.dsa.linkedlist;
+package dsa.linkedlist;
 
 public class AddTwoNumbers {
     public static ListNode addTwoNumbers(ListNode l1, ListNode l2){

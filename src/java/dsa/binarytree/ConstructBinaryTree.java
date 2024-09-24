@@ -1,4 +1,4 @@
-package dsa.dividenconquer.java.dsa.binarytree;
+package dsa.binarytree;
 
 public class ConstructBinaryTree {
     public TreeNode buildTree(int[] inorder, int[] postorder){

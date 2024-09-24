@@ -1,4 +1,4 @@
-package dsa.dividenconquer.java.dsa.linkedlist;
+package dsa.linkedlist;
 
 public class RemoveNthNode {
     public static ListNode removeNthFromEnd(ListNode head, int n){
