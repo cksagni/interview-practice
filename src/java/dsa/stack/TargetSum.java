@@ -1,4 +1,4 @@
-package dsa.dividenconquer.java.dsa.stack;
+package dsa.stack;
 
 public class TargetSum {
     int count = 0;

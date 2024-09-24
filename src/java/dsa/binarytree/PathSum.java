@@ -1,4 +1,4 @@
-package dsa.dividenconquer.java.dsa.binarytree;
+package dsa.binarytree;
 
 import java.util.Stack;
 

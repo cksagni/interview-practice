@@ -1,4 +1,4 @@
-package dsa.dividenconquer.java.dsa.slidingwindow;
+package dsa.slidingwindow;
 
 import java.util.HashMap;
 import java.util.Map;

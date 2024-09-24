@@ -1,4 +1,4 @@
-package dsa.dividenconquer.java.dsa.stack;
+package dsa.stack;
 
 import java.util.Objects;
 import java.util.Stack;

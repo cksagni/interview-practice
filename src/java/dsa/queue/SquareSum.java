@@ -1,4 +1,4 @@
-package dsa.dividenconquer.java.dsa.queue;
+package dsa.queue;
 
 import java.util.ArrayList;
 import java.util.HashSet;

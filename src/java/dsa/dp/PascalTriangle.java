@@ -1,4 +1,4 @@
-package dsa.dividenconquer.java.dsa.dp;
+package dsa.dp;
 
 import java.util.ArrayList;
 import java.util.List;

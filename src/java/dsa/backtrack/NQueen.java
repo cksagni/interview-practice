@@ -1,4 +1,4 @@
-package dsa.dividenconquer.java.dsa.backtrack;
+package dsa.backtrack;
 
 import java.util.HashSet;
 import java.util.Set;

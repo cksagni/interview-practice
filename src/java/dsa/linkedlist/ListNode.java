@@ -1,4 +1,4 @@
-package dsa.dividenconquer.java.dsa.linkedlist;
+package dsa.linkedlist;
 
 class ListNode {
     int val;
